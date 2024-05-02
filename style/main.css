@@ -915,3 +915,12 @@ section {
   height: 300px;
 }
 
+#btnLogo{
+  width: 3rem;
+  height: 2rem;
+}
+
+#nav-logo{
+  width: 4rem;
+  height: 1.5rem;
+}
