@@ -19,19 +19,19 @@ function cambiarLogoEnScroll() {
 
   if (scrollY >= naranjaY && scrollY < blancaY) {
     navLogo.src = '/assets/logo-blanco.png';
-    btnLogo.src = '/assets/group.png';
+    btnLogo.src = '../assets/group.png';
   } else if (scrollY >= blancaY && scrollY < terceraY) {
-    navLogo.src = '/assets/component1.png';
+    navLogo.src = '../assets/component1.png';
     btnLogo.src = '/assets/boton-menu-naranja.png';
   } else if(scrollY >= terceraY && scrollY < cuartaY) {
     navLogo.src = '/assets/logo-blanco.png'; // Cambiar a blanco en la tercera sección
-    btnLogo.src = '/assets/group.png';
+    btnLogo.src = '../assets/group.png';
   } else if(scrollY >= cuartaY && scrollY < quintaY){
-    navLogo.src = '/assets/component1.png';
+    navLogo.src = '../assets/component1.png';
     btnLogo.src = '/assets/boton-menu-naranja.png';
   }else{
     navLogo.src = '/assets/logo-blanco.png';
-    btnLogo.src = '/assets/group.png';
+    btnLogo.src = '../assets/group.png';
   }
 
    // Cambia el color del texto en función de la posición
