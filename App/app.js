@@ -18,20 +18,20 @@ function cambiarLogoEnScroll() {
   const quintaY = seccionQuinta.offsetTop
 
   if (scrollY >= naranjaY && scrollY < blancaY) {
-    navLogo.src = './assets/logo-blanco.svg';
-    btnLogo.src = './assets/group.svg';
+    navLogo.src = '../assets/logo-blanco.svg';
+    btnLogo.src = '../assets/group.svg';
   } else if (scrollY >= blancaY && scrollY < terceraY) {
-    navLogo.src = './assets/component1.svg';
-    btnLogo.src = './assets/boton-menu-naranja.svg';
+    navLogo.src = '../assets/component1.svg';
+    btnLogo.src = '../assets/boton-menu-naranja.svg';
   } else if(scrollY >= terceraY && scrollY < cuartaY) {
-    navLogo.src = './assets/logo-blanco.svg'; // Cambiar a blanco en la tercera sección
-    btnLogo.src = './assets/group.svg';
+    navLogo.src = '../assets/logo-blanco.svg'; // Cambiar a blanco en la tercera sección
+    btnLogo.src = '../assets/group.svg';
   } else if(scrollY >= cuartaY && scrollY < quintaY){
-    navLogo.src = './assets/component1.svg';
-    btnLogo.src = './assets/boton-menu-naranja.svg';
+    navLogo.src = '../assets/component1.svg';
+    btnLogo.src = '../assets/boton-menu-naranja.svg';
   }else{
-    navLogo.src = './assets/logo-blanco.svg';
-    btnLogo.src = './assets/group.svg';
+    navLogo.src = '../assets/logo-blanco.svg';
+    btnLogo.src = '../assets/group.svg';
   }
 
    // Cambia el color del texto en función de la posición
